@@ -1,5 +1,4 @@
 import { useGlobal } from '@/lib/global'
-import { formatDateFmt } from '@/lib/utils/formatDate'
 import Link from 'next/link'
 
 export const ArticleInfo = props => {
@@ -25,16 +24,6 @@ export const ArticleInfo = props => {
 
       {/* 分类和标签 */}
       <div className="flex flex-wrap gap-3 font-medium text-sm items-center justify-start mt-4">
-        {/* 归档日期 */}
-        {post?.publishDate && (
-          <Link
-            href={`/archive#${formatDateFmt(post?.publishDate, 'yyyy-MM')}`}
-            passHref
-            className="text-gray-500 hover:text-gray-600 dark:text-gray-400">
-            {post?.publishDay}
-          </Link>
-        )}
-
         {/* 分类 */}
         {post?.type !== 'Page' && post?.category && (
           <Link
