@@ -563,11 +563,3 @@ const BLOG = {
 }
 
 module.exports = BLOG
-
-module.exports = {
-  title: '坏苹果放映', // 网站标题
-  description: '坏苹果放映', // 网站默认描述
-  author: '坏苹果团队', // 作者名称
-  domain: 'https://screening-badapples-projects.vercel.app', // 绑定的域名
-  ogImageGenerateHost: 'https://screening-badapples-projects.vercel.app', // 动态生成 Open Graph 图片的域名
-};
