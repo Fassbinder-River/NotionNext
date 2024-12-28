@@ -563,13 +563,3 @@ const BLOG = {
 }
 
 module.exports = BLOG
-
-module.exports = {
-  domain: 'https://screening-badapples-projects.vercel.app',
-  ogImageGenerateHost: 'https://screening-badapples-projects.vercel.app',
-  seo: {
-    keywords: ['Notion', '博客', 'Vercel'],
-    description: '这是一个基于 Notion 的博客，快速生成微信小卡片。',
-  },
-};
-
