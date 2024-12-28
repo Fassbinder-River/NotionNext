@@ -563,3 +563,13 @@ const BLOG = {
 }
 
 module.exports = BLOG
+
+module.exports = {
+  domain: 'https://screening-badapples-projects.vercel.app', // 替换为您的 Vercel 子域名
+  ogImageGenerateHost: 'https://screening-badapples-projects.vercel.app', // 用于动态生成封面图片的域名
+  seo: {
+    keywords: ['Notion', '博客', 'Vercel'],
+    description: '这是一个基于 Notion 数据库构建的博客，支持微信小卡片。',
+  },
+};
+
